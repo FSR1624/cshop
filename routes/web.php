@@ -16,6 +16,7 @@ use Illuminate\Http\Request;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//URL::forceRootUrl('http://studenti.sum.ba/projekti/fsre_rwa/2020/g22');
 
 Route::get('/',[\App\Http\Controllers\ProductController::class, 'index'])->name('index');
 
